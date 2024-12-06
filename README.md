@@ -1,8 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Nextjs-clerk-tailwind-ts
+
+<p align="justify">
+Nextjs clerk and typescript Tailwind responsive.
+</p>
+
+<p align="justify">
+This repository offers a template for developing web applications with Next.js, Clerk for authentication, TypeScript for static typing, and Tailwind CSS for a modern, responsive design. Ideal for fast, scalable projects with an optimized configuration.
+</p>
+
+Home
+<p align="center">
+  <img src="README-images/home.PNG" alt="Step1">
+</p>
+Home mobile
+<p align="center">
+  <img src="README-images/homemobile.PNG" alt="Step1">
+</p>
+
+Navbar responsive
+<p align="center">
+  <img src="README-images/navbaresponsive.PNG" alt="Step1">
+</p>
+
+Sig in
+<p align="center">
+  <img src="README-images/signin.PNG" alt="Step1">
+</p>
+
+Sig up
+<p align="center">
+  <img src="README-images/signup.PNG" alt="Step1">
+</p>
+
+Home login
+<p align="center">
+  <img src="README-images/homelogin.PNG" alt="Step1">
+</p>
+
+Navbar login 
+<p align="center">
+  <img src="README-images/navbarlogin.PNG" alt="Step1">
+</p>
+
+Dashboard
+<p align="center">
+  <img src="README-images/dashboard.PNG" alt="Step1">
+</p>
+Dashboard mobile
+<p align="center">
+  <img src="README-images/dashboardlogin.PNG" alt="Step1">
+</p>
+
+Create .env.local by the .env
+-----
+
+Fronted Nextjs Options for do it:
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Nodejs version v20.18.0 and Next.js version v15
 
-First, run the development server:
+First
+```bash
+npm install
+```
+run the development server:
 
 ```bash
 npm run dev
@@ -13,24 +76,8 @@ pnpm dev
 # or
 bun dev
 ```
+Please uncommeted the .env in gitignore if you do deploy 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Created by [Diego Ivan Perea Montealegre](https://github.com/diegoperea20)
